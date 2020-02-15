@@ -1,15 +1,8 @@
 package main
 
 import (
-	"fmt"
 	"math"
 )
-
-func main() {
-	result := reverse(123)
-
-	fmt.Println(result)
-}
 
 func reverse(x int) int {
 	sign := 1
