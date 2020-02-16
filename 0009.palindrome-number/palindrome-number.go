@@ -1,4 +1,4 @@
-package main
+package problem0009
 
 func isPalindrome(x int) bool {
 	if x < 0 {
