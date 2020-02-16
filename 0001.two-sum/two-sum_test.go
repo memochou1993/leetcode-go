@@ -3,7 +3,7 @@ package problem0001
 import (
 	"testing"
 
-	"gopkg.in/go-playground/assert.v1"
+	"github.com/stretchr/testify/assert"
 )
 
 type question struct {
