@@ -1,4 +1,4 @@
-# Integer to Roman
+# Roman to Integer
 
 ## Description
 
