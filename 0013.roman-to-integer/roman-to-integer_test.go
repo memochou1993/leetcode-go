@@ -1,4 +1,4 @@
-package problem0007
+package problem0013
 
 import (
 	"testing"
@@ -12,7 +12,7 @@ type question struct {
 }
 
 type parameter struct {
-	first int
+	first string
 }
 
 type answer struct {
@@ -23,32 +23,48 @@ func TestProblem(t *testing.T) {
 	questions := []question{
 		question{
 			p: parameter{
-				first: 123,
+				first: "III",
 			},
 			a: answer{
-				first: 321,
+				first: 3,
 			},
 		},
 		question{
 			p: parameter{
-				first: -123,
+				first: "IV",
 			},
 			a: answer{
-				first: -321,
+				first: 4,
 			},
 		},
 		question{
 			p: parameter{
-				first: 120,
+				first: "IX",
 			},
 			a: answer{
-				first: 21,
+				first: 9,
+			},
+		},
+		question{
+			p: parameter{
+				first: "LVIII",
+			},
+			a: answer{
+				first: 58,
+			},
+		},
+		question{
+			p: parameter{
+				first: "MCMXCIV",
+			},
+			a: answer{
+				first: 1994,
 			},
 		},
 	}
 
 	for _, q := range questions {
 		a, p := q.a, q.p
-		assert.Equal(t, reverse(p.first), a.first)
+		assert.Equal(t, romanToInt(p.first), a.first)
 	}
 }
