@@ -37,7 +37,6 @@ func longestCommonPrefix(strs []string) string {
 		for j := 1; j < len(strs); j++ {
 			// 判斷比對的字母是否不一樣
 			if i == len(strs[j]) || strs[j][:i+1] != char {
-				// 回傳正確切片的第一個字串
 				return strs[0][:i]
 			}
 		}
