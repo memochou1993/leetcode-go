@@ -65,6 +65,6 @@ func TestProblem(t *testing.T) {
 
 	for _, q := range questions {
 		a, p := q.a, q.p
-		assert.Equal(t, longestCommonPrefix(p.first), a.first)
+		assert.Equal(t, a.first, longestCommonPrefix(p.first))
 	}
 }

@@ -49,6 +49,6 @@ func TestProblem(t *testing.T) {
 
 	for _, q := range questions {
 		a, p := q.a, q.p
-		assert.Equal(t, isPalindrome(p.first), a.first)
+		assert.Equal(t, a.first, isPalindrome(p.first))
 	}
 }

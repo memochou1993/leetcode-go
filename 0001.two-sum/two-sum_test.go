@@ -44,6 +44,6 @@ func TestProblem(t *testing.T) {
 
 	for _, q := range questions {
 		a, p := q.a, q.p
-		assert.Equal(t, secondSum(p.first, p.second), a.first)
+		assert.Equal(t, a.first, secondSum(p.first, p.second))
 	}
 }
