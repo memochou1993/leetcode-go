@@ -48,7 +48,7 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 }
 ```
 
-## 示意圖
+## Note
 
 假設有以下串列：
 
@@ -60,6 +60,8 @@ l2: 2->3
 演變如下：
 
 ```BASH
+比較串列 1 和串列 2。
+
 ----------
 l1: 1, 4
 ----------
