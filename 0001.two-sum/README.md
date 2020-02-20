@@ -19,7 +19,7 @@ return [0, 1].
 
 ```GO
 func twoSum(nums []int, target int) []int {
-	// 創建一個集合，用於放置迭代過的索引
+	// 創建一個集合，用於放置疊代過的索引
 	index := make(map[int]int, len(nums))
 
 	for i, num := range nums {
