@@ -2,7 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
-0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [remove-element](https://github.com/memochou1993/leetcode-go/tree/master/0027.remove-element) | Easy | 2020-02-20
+0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [remove-element](https://github.com/memochou1993/leetcode-go/tree/master/0027.remove-element) | Easy | 2020-02-21
 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [remove-duplicates-from-sorted-array](https://github.com/memochou1993/leetcode-go/tree/master/0026.remove-duplicates-from-sorted-array) | Easy | 2020-02-20
 0021 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | [merge-two-sorted-lists](https://github.com/memochou1993/leetcode-go/tree/master/0021.merge-two-sorted-lists) | Easy | 2020-02-19
 0020 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [valid-parentheses](https://github.com/memochou1993/leetcode-go/tree/master/0020.valid-parentheses) | Easy | 2020-02-18

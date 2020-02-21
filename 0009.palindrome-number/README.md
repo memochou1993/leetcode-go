@@ -50,3 +50,37 @@ func isPalindrome(x int) bool {
 	return x == reverse
 }
 ```
+
+## Note
+
+假設有以下數字：
+
+```BASH
+121
+```
+
+演變如下：
+
+```BASH
+copy 為 121：
+reverse 為 0：
+
+把 reverse 乘以 10 加上 copy 的尾數為 1，把 copy 除以 10。
+
+copy 為 12：
+reverse 為 1：
+
+把 reverse 乘以 10 加上 copy 的尾數為 2，把 copy 除以 10。
+
+copy 為 1：
+reverse 為 12：
+
+把 reverse 乘以 10 加上 copy 的尾數為 1，把 copy 除以 10。
+
+copy 為 0：
+reverse 為 121：
+
+判斷 reverse 是否等於 x。
+
+最終返回：true
+```

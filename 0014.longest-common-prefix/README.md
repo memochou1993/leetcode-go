@@ -45,3 +45,51 @@ func longestCommonPrefix(strs []string) string {
 	return strs[0]
 }
 ```
+
+## Note
+
+假設有以下陣列：
+
+```BASH
+["flower","flow","flight"]
+```
+
+演變如下：
+
+```BASH
+以第一個字串 flower 作為基準。
+
+比對第二個字串 flow：
+
+j 為 1：
+
+比對 flower 的第 1 個字母 f 和 flow 的第 1 個字母 f，一樣。
+
+j 為 2：
+
+比對 flower 的第 2 個字母 l 和 flow 的第 2 個字母 l，一樣。
+
+j 為 3：
+
+比對 flower 的第 3 個字母 o 和 flow 的第 3 個字母 o，一樣。
+
+j 為 4：
+
+比對 flower 的第 4 個字母 w 和 flow 的第 4 個字母 w，一樣。
+
+比對第三個字串 flight：
+
+j 為 1：
+
+比對 flower 的第 1 個字母 f 和 flight 的第 1 個字母 f，一樣。
+
+j 為 2：
+
+比對 flower 的第 2 個字母 l 和 flight 的第 2 個字母 l，一樣。
+
+j 為 3：
+
+比對 flower 的第 3 個字母 o 和 flight 的第 3 個字母 i，不一樣，停止比對。
+
+最終返回：fl
+```

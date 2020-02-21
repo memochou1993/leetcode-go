@@ -61,3 +61,33 @@ func reverse(x int) int {
 	return result
 }
 ```
+
+## Note
+
+假設有以下數字：
+
+```BASH
+321
+```
+
+演變如下：
+
+```BASH
+x 為 321：
+result 為 0：
+
+取得 x 的尾數為 1，把 result 乘以 10 加上 1，把 x 除以 10。
+
+x 為 32：
+result 為 1：
+
+取得 x 的尾數為 2，把 result 乘以 10 加上 2，把 x 除以 10。
+
+x 為 3：
+result 為 21：
+
+取得 x 的尾數為 3，把 result 乘以 10 加上 3，把 x 除以 10。
+
+x 為 0：
+result 為 321：
+```
