@@ -32,13 +32,13 @@ func romanToInt(s string) int {
 
 	// 建立一個對照表
 	m := map[byte]int{
-		'I': 1,
-		'V': 5,
-		'X': 10,
-		'L': 50,
-		'C': 100,
-		'D': 500,
-		'M': 1000,
+		'I': 1, // 73:1
+		'V': 5, // 86:5
+		'X': 10, // 88:10
+		'L': 50, // 76:50
+		'C': 100, // 67:100
+		'D': 500, // 68:500
+		'M': 1000, // 77:1000
 	}
 
 	// 從最後一個字母開始對照
@@ -62,4 +62,44 @@ func romanToInt(s string) int {
 
 	return result
 }
+```
+
+## Note
+
+假設有以下字串：
+
+```BASH
+XIV
+```
+
+演變如下：
+
+```BASH
+last 為 0。
+
+對照 V：
+
+V 為 5，將 temp 設為 5。
+
+temp 大於 last，所以 result 為 5。
+
+將 last 設為 5。
+
+對照 I：
+
+I 為 1，將 temp 設為 1。
+
+temp 小於 last，所以 result 為 4。
+
+將 last 設為 1。
+
+對照 X：
+
+X 為 10，將 temp 設為 10。
+
+temp 大於 last，所以 result 為 14。
+
+將 last 設為 10。
+
+最終返回：14
 ```
