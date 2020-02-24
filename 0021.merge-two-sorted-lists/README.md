@@ -50,7 +50,7 @@ func mergeTwoLists(l1 *ListNode, l2 *ListNode) *ListNode {
 
 ## Note
 
-假設有以下串列：
+假設有以下參數：
 
 ```BASH
 l1: 1->4

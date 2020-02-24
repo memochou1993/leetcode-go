@@ -48,10 +48,10 @@ func longestCommonPrefix(strs []string) string {
 
 ## Note
 
-假設有以下陣列：
+假設有以下參數：
 
 ```BASH
-["flower","flow","flight"]
+strs: ["flower","flow","flight"]
 ```
 
 演變如下：

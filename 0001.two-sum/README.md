@@ -37,10 +37,11 @@ func twoSum(nums []int, target int) []int {
 
 ## Note
 
-假設有以下陣列，目標值為 18：
+假設有以下參數：
 
 ```BASH
-[2, 7, 11, 15]
+nums: [2, 7, 11, 15]
+target: 18
 ```
 
 演變如下：

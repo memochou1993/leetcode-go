@@ -88,10 +88,10 @@ func isValid(s string) bool {
 
 ## Note
 
-假設有以下字串：
+假設有以下參數：
 
 ```BASH
-{[]}
+s: "{[]}"
 ```
 
 演變如下：

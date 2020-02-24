@@ -75,10 +75,11 @@ func removeElement(nums []int, val int) int {
 
 ## Note
 
-假設有以下陣列，指定值為 3：
+假設有以下參數：
 
 ```BASH
-[3, 2, 4, 3]
+nums: [3, 2, 4, 3]
+val: 3
 ```
 
 演變如下：

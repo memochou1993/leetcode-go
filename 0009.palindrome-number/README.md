@@ -53,10 +53,10 @@ func isPalindrome(x int) bool {
 
 ## Note
 
-假設有以下數字：
+假設有以下參數：
 
 ```BASH
-121
+x: 121
 ```
 
 演變如下：

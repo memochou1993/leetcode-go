@@ -82,10 +82,10 @@ func intToRoman(num int) string {
 
 ## Note
 
-假設有以下數字：
+假設有以下參數：
 
 ```BASH
-58
+num: 58
 ```
 
 演變如下：

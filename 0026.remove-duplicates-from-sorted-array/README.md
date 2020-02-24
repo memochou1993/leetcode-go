@@ -70,10 +70,10 @@ func removeDuplicates(nums []int) int {
 
 ## Note
 
-假設有以下陣列：
+假設有以下參數：
 
 ```BASH
-[0, 1, 1, 2]
+nums: [0, 1, 1, 2]
 ```
 
 演變如下：

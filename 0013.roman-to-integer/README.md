@@ -66,10 +66,10 @@ func romanToInt(s string) int {
 
 ## Note
 
-假設有以下字串：
+假設有以下參數：
 
 ```BASH
-XIV
+s: XIV
 ```
 
 演變如下：

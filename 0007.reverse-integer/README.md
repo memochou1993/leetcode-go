@@ -64,10 +64,10 @@ func reverse(x int) int {
 
 ## Note
 
-假設有以下數字：
+假設有以下參數：
 
 ```BASH
-321
+x: 321
 ```
 
 演變如下：
