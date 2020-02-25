@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [count-and-say](https://github.com/memochou1993/leetcode-go/tree/master/0038.count-and-say) | Easy | 2020-02-25
 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [search-insert-position](https://github.com/memochou1993/leetcode-go/tree/master/0035.search-insert-position) | Easy | 2020-02-24
 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [implement-strstr](https://github.com/memochou1993/leetcode-go/tree/master/0028.implement-strstr) | Easy | 2020-02-24
 0027 | [Remove Element](https://leetcode.com/problems/remove-element/) | [remove-element](https://github.com/memochou1993/leetcode-go/tree/master/0027.remove-element) | Easy | 2020-02-21
