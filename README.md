@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [maximum-subarray](https://github.com/memochou1993/leetcode-go/tree/master/0053.maximum-subarray) | Easy | 2020-02-26
 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [count-and-say](https://github.com/memochou1993/leetcode-go/tree/master/0038.count-and-say) | Easy | 2020-02-25
 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [search-insert-position](https://github.com/memochou1993/leetcode-go/tree/master/0035.search-insert-position) | Easy | 2020-02-24
 0028 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [implement-strstr](https://github.com/memochou1993/leetcode-go/tree/master/0028.implement-strstr) | Easy | 2020-02-24
