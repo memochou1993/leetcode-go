@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [length-of-last-word](https://github.com/memochou1993/leetcode-go/tree/master/0058.length-of-last-word) | Easy | 2020-02-27
 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [maximum-subarray](https://github.com/memochou1993/leetcode-go/tree/master/0053.maximum-subarray) | Easy | 2020-02-26
 0038 | [Count and Say](https://leetcode.com/problems/count-and-say/) | [count-and-say](https://github.com/memochou1993/leetcode-go/tree/master/0038.count-and-say) | Easy | 2020-02-25
 0035 | [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | [search-insert-position](https://github.com/memochou1993/leetcode-go/tree/master/0035.search-insert-position) | Easy | 2020-02-24
