@@ -1,4 +1,4 @@
-# Implement strStr()
+# 28. Implement strStr()
 
 ## Description
 
