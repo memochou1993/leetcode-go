@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [add-binary](https://github.com/memochou1993/leetcode-go/tree/master/0067.add-binary) | Easy | 2020-03-04
 0066 | [Plus One](https://leetcode.com/problems/plus-one/) | [plus-one](https://github.com/memochou1993/leetcode-go/tree/master/0066.plus-one) | Easy | 2020-03-02
 0058 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/) | [length-of-last-word](https://github.com/memochou1993/leetcode-go/tree/master/0058.length-of-last-word) | Easy | 2020-02-27
 0053 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [maximum-subarray](https://github.com/memochou1993/leetcode-go/tree/master/0053.maximum-subarray) | Easy | 2020-02-26
