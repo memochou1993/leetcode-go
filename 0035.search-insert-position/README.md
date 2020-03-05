@@ -36,15 +36,20 @@ Output: 0
 
 ```GO
 func searchInsert(nums []int, target int) int {
+	// 低點索引
 	low := 0
+	// 高點索引
 	high := len(nums) - 1
 
 	for low <= high {
+		// 中間索引
 		mid := (low + high) / 2
 
 		if nums[mid] > target {
+			// 將高點索引設置為中間索引，並減 1 避免與低點索引重疊
 			high = mid - 1
 		} else if nums[mid] < target {
+			// 將低點索引設置為中間索引，並加 1 避免與高點索引重疊
 			low = mid + 1
 		} else {
 			return mid
