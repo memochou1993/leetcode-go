@@ -59,7 +59,7 @@ func plusOne(digits []int) []int {
 digits: [9, 9, 9]
 ```
 
-演變如下：
+說明：
 
 ```BASH
 將最後一個元素 + 1，digits 變成 [9, 9, 10]。

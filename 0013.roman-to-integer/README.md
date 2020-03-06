@@ -72,7 +72,7 @@ func romanToInt(s string) int {
 s: XIV
 ```
 
-演變如下：
+說明：
 
 ```BASH
 last 為 0。

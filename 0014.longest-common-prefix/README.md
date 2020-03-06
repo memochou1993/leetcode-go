@@ -54,7 +54,7 @@ func longestCommonPrefix(strs []string) string {
 strs: ["flower","flow","flight"]
 ```
 
-演變如下：
+說明：
 
 ```BASH
 以第一個字串 flower 作為基準。

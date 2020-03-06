@@ -59,7 +59,7 @@ func isPalindrome(x int) bool {
 x: 121
 ```
 
-演變如下：
+說明：
 
 ```BASH
 copy 為 121：

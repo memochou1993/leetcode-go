@@ -57,7 +57,7 @@ func lengthOfLastWord(s string) int {
 s: "Hello World"
 ```
 
-演變如下：
+說明：
 
 ```BASH
 右切截：

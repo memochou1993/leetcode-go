@@ -51,7 +51,7 @@ func maxSubArray(nums []int) int {
 nums: [-2, 1, -3, 4, -1, 2, 1, -5, 4]
 ```
 
-演變如下：
+說明：
 
 ```BASH
 第 1 次迴圈：

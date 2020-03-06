@@ -70,7 +70,7 @@ func reverse(x int) int {
 x: 321
 ```
 
-演變如下：
+說明：
 
 ```BASH
 x 為 321：

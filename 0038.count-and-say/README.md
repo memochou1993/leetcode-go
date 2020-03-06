@@ -89,7 +89,7 @@ func countAndSay(n int) string {
 n: 5
 ```
 
-演變如下：
+說明：
 
 ```BASH
 n 為 5：執行遞迴函式，s 等待返回。

@@ -88,7 +88,7 @@ func intToRoman(num int) string {
 num: 58
 ```
 
-演變如下：
+說明：
 
 ```BASH
 拼接第 1 個字母：

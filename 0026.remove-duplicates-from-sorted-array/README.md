@@ -76,7 +76,7 @@ func removeDuplicates(nums []int) int {
 nums: [0, 1, 1, 2]
 ```
 
-演變如下：
+說明：
 
 ```BASH
 

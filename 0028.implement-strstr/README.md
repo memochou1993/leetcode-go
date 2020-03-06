@@ -49,7 +49,7 @@ haystack: hello
 needle: ll
 ```
 
-演變如下：
+說明：
 
 ```BASH
 

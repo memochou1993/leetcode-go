@@ -57,7 +57,7 @@ func mySqrt(x int) int {
 x: 26
 ```
 
-演變如下：
+說明：
 
 ```BASH
 第 1 次比較：

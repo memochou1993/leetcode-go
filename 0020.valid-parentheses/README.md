@@ -94,7 +94,7 @@ func isValid(s string) bool {
 s: "{[]}"
 ```
 
-演變如下：
+說明：
 
 ```BASH
 
