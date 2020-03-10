@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0083 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [remove-duplicates-from-sorted-list](https://github.com/memochou1993/leetcode-go/tree/master/0083.remove-duplicates-from-sorted-list) | Easy | 2020-03-10
 0070 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [climbing-stairs](https://github.com/memochou1993/leetcode-go/tree/master/0070.climbing-stairs) | Easy | 2020-03-06
 0069 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [sqrtx](https://github.com/memochou1993/leetcode-go/tree/master/0069.sqrtx) | Easy | 2020-03-05
 0067 | [Add Binary](https://leetcode.com/problems/add-binary/) | [add-binary](https://github.com/memochou1993/leetcode-go/tree/master/0067.add-binary) | Easy | 2020-03-04

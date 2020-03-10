@@ -1,4 +1,4 @@
-package problem0021
+package problem0083
 
 import (
 	"testing"
@@ -12,8 +12,7 @@ type question struct {
 }
 
 type parameter struct {
-	first  []int
-	second []int
+	first []int
 }
 
 type answer struct {
@@ -24,27 +23,25 @@ func TestProblem(t *testing.T) {
 	questions := []question{
 		question{
 			p: parameter{
-				first:  []int{1, 2, 4},
-				second: []int{1, 3, 4},
+				first: []int{1, 1, 2, 3},
 			},
 			a: answer{
-				first: []int{1, 1, 2, 3, 4, 4},
+				first: []int{1, 2, 3},
 			},
 		},
 		question{
 			p: parameter{
-				first:  []int{1, 4},
-				second: []int{2, 3},
+				first: []int{1, 1, 2, 3, 3},
 			},
 			a: answer{
-				first: []int{1, 2, 3, 4},
+				first: []int{1, 2, 3},
 			},
 		},
 	}
 
 	for _, q := range questions {
 		a, p := q.a, q.p
-		assert.Equal(t, a.first, ltos(mergeTwoLists(stol(p.first), stol(p.second))))
+		assert.Equal(t, a.first, ltos(deleteDuplicates(stol(p.first))))
 	}
 }
 
