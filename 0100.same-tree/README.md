@@ -68,7 +68,7 @@ func isSameTree(p *TreeNode, q *TreeNode) bool {
 		return false
 	}
 
-	// 判斷兩樹是否相同
+	// 判斷左右節點是否相同
 	return isSameTree(p.Left, q.Left) && isSameTree(p.Right, q.Right)
 }
 ```
