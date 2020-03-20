@@ -30,12 +30,12 @@ return its depth = 3.
 
 ```GO
 func maxDepth(root *TreeNode) int {
-	// 節點為空節點，返回 0 個階層
+	// 節點為空，返回 0 個階層
 	if root == nil {
 		return 0
 	}
 
-	// 節點不為空節點，則加上 1 個階層並返回
+	// 節點不為空，則加上 1 個階層並返回
 	return 1 + max(maxDepth(root.Left), maxDepth(root.Right))
 }
 
