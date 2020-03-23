@@ -38,7 +38,7 @@ func minDepth(root *TreeNode) int {
 	// 如果右節點為空，則返回左節點的階層並增值
 	case root.Right == nil:
 		return minDepth(root.Left) + 1
-	// 返回兩節點較小的階層並增值
+	// 如果左右節點皆不為空，則返回兩節點較小的階層並增值
 	default:
 		return min(minDepth(root.Left), minDepth(root.Right)) + 1
 	}
