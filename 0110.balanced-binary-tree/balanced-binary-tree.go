@@ -16,14 +16,14 @@ func maxDepth(root *TreeNode) int {
 		return 0
 	}
 
-	left := maxDepth(root.Left)
-	right := maxDepth(root.Right)
+	leftDepth := maxDepth(root.Left)
+	rightDepth := maxDepth(root.Right)
 
-	if left == -1 || right == -1 || left-right > 1 || right-left > 1 {
+	if leftDepth == -1 || rightDepth == -1 || leftDepth-rightDepth > 1 || rightDepth-leftDepth > 1 {
 		return -1
 	}
 
-	return max(left, right) + 1
+	return max(leftDepth, rightDepth) + 1
 }
 
 func max(a, b int) int {
