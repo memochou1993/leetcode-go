@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [path-sum](https://github.com/memochou1993/leetcode-go/tree/master/0112.path-sum) | Easy | 2020-03-24
 0111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [minimum-depth-of-binary-tree](https://github.com/memochou1993/leetcode-go/tree/master/0111.minimum-depth-of-binary-tree) | Easy | 2020-03-23
 0110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | [balanced-binary-tree](https://github.com/memochou1993/leetcode-go/tree/master/0110.balanced-binary-tree) | Easy | 2020-03-20
 0108 | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [convert-sorted-array-to-binary-search-tree](https://github.com/memochou1993/leetcode-go/tree/master/0108.convert-sorted-array-to-binary-search-tree) | Easy | 2020-03-19
