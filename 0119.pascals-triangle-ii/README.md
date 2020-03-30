@@ -34,7 +34,7 @@ func getRow(rowIndex int) []int {
 	// 找出中間的索引
 	mid := (rowIndex+1)/2 + 1
 
-	// 從陣列索引為 1 的位置疊代到索引為 mid 的位置
+	// 從陣列索引為 1 的位置開始疊代
 	for i := 1; i < mid; i++ {
 		// 用上一個元素計算出當前元素
 		res[i] = res[i-1] * (rowIndex + 1 - i) / i
