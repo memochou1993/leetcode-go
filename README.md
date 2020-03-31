@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [best-time-to-buy-and-sell-stock](https://github.com/memochou1993/leetcode-go/tree/master/0121.best-time-to-buy-and-sell-stock) | Easy | 2020-03-31
 0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [pascals-triangle-ii](https://github.com/memochou1993/leetcode-go/tree/master/0119.pascals-triangle-ii) | Easy | 2020-03-30
 0118 | [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [pascals-triangle](https://github.com/memochou1993/leetcode-go/tree/master/0118.pascals-triangle) | Easy | 2020-03-25
 0112 | [Path Sum](https://leetcode.com/problems/path-sum/) | [path-sum](https://github.com/memochou1993/leetcode-go/tree/master/0112.path-sum) | Easy | 2020-03-24
