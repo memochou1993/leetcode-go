@@ -34,7 +34,7 @@ func TestProblem(t *testing.T) {
 		question{
 			p: parameter{
 				pre: []int{1, 2, 3, 2, 3},
-				in:  []int{2, 3, 1, 2, 3},
+				in:  []int{3, 2, 1, 2, 3},
 			},
 			a: answer{
 				first: true,
