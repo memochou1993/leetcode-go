@@ -29,7 +29,7 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
 ```GO
 func maxProfit(prices []int) int {
-	// 累計值
+	// 差額累計值
 	temp := 0
 	// 最大值
 	max := 0
@@ -39,7 +39,7 @@ func maxProfit(prices []int) int {
 		// 累計
 		temp += prices[i] - prices[i-1]
 
-		// 如果累計值為負數，則將累計值歸零
+		// 如果差額累計值為負數，則將其歸零
 		if temp < 0 {
 			temp = 0
 		}
