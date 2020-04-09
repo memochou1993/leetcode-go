@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [valid-palindrome](https://github.com/memochou1993/leetcode-go/tree/master/0125.valid-palindrome) | Easy | 2020-04-09
 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [best-time-to-buy-and-sell-stock-ii](https://github.com/memochou1993/leetcode-go/tree/master/0122.best-time-to-buy-and-sell-stock-ii) | Easy | 2020-04-01
 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [best-time-to-buy-and-sell-stock](https://github.com/memochou1993/leetcode-go/tree/master/0121.best-time-to-buy-and-sell-stock) | Easy | 2020-03-31
 0119 | [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | [pascals-triangle-ii](https://github.com/memochou1993/leetcode-go/tree/master/0119.pascals-triangle-ii) | Easy | 2020-03-30
