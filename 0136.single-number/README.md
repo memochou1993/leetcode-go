@@ -2,11 +2,11 @@
 
 ## Description
 
-Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 
 - Note:
 
-For the purpose of this problem, we define empty string as valid palindrome.
+Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
 - Example 1:
 
