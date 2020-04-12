@@ -2,6 +2,7 @@
 
 No. | Title | Solution | Difficulty | Date
 --- | --- | --- | --- | ---
+0141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [linked-list-cycle](https://github.com/memochou1993/leetcode-go/tree/master/0141.linked-list-cycle) | Easy | 2020-04-12
 0136 | [Single Number](https://leetcode.com/problems/single-number/) | [single-number](https://github.com/memochou1993/leetcode-go/tree/master/0136.single-number) | Easy | 2020-04-10
 0125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | [valid-palindrome](https://github.com/memochou1993/leetcode-go/tree/master/0125.valid-palindrome) | Easy | 2020-04-09
 0122 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [best-time-to-buy-and-sell-stock-ii](https://github.com/memochou1993/leetcode-go/tree/master/0122.best-time-to-buy-and-sell-stock-ii) | Easy | 2020-04-01
