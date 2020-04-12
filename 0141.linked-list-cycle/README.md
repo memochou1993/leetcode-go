@@ -43,7 +43,7 @@ func hasCycle(head *ListNode) bool {
 	}
 
 	// 龜指針
-    slow := head
+	slow := head
 	// 兔指針
 	fast := head.Next
 
@@ -73,23 +73,23 @@ pos: 1
 說明：
 
 ```BASH
-運用 tortoise and hare algorithm 的概念。
+運用 tortoise and hare algorithm 的概念，使用 2 個指針比較。
 
-第 1 次比較：
+第 1 次迴圈：
 --------------------
 s  f
 |  |
 3->2->0->-4
 --------------------
 
-第 2 次比較：
+第 2 次迴圈：
 --------------------
    s      f
    |      |
 3->2->0->-4
 --------------------
 
-第 3 次比較：
+第 3 次迴圈：
 --------------------
    f
    s
