@@ -1,5 +1,7 @@
 package problem0067
 
+import "fmt"
+
 func addBinary(a string, b string) string {
 	la := len(a) - 1
 	lb := len(b) - 1
@@ -21,7 +23,7 @@ func addBinary(a string, b string) string {
 			lb--
 		}
 
-		result = string(temp%2+'0') + result
+		result = fmt.Sprintf("%c", temp%2+'0') + result
 
 		carry = temp / 2
 	}

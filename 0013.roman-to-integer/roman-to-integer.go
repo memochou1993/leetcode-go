@@ -1,7 +1,5 @@
 package problem0013
 
-import "log"
-
 func romanToInt(s string) int {
 	result := 0
 
@@ -14,8 +12,6 @@ func romanToInt(s string) int {
 		'D': 500,
 		'M': 1000,
 	}
-
-	log.Println(m)
 
 	last := 0
 	for i := len(s) - 1; i >= 0; i-- {
